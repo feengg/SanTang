@@ -14,25 +14,24 @@
     <QtUic Include="..\code\ui\qDlgAbout.ui" />
     <QtUic Include="..\code\ui\qDlgLoginWindow.ui" />
     <QtUic Include="..\code\ui\qDlgSanTang.ui" />
+    <QtUic Include="..\code\ui\qDlgWidget.ui" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\code\include\CDlgBaseWindow.cpp" />
-    <ClCompile Include="..\code\main\main.cpp" />
+    <ClCompile Include="..\code\src\CDlgBaseWindow.cpp" />
     <ClCompile Include="..\code\src\CDlgLoginWindow.cpp" />
+    <ClCompile Include="..\code\src\CDlgSanTang.cpp" />
     <ClCompile Include="..\code\src\CDlgTitleBar.cpp" />
-    <ClCompile Include="..\code\src\SanTang.cpp" />
+    <ClCompile Include="..\code\src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="..\code\qrc\SanTang.qrc" />
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="..\code\include\CDlgSanTang.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <QtMoc Include="..\code\include\CDlgLoginWindow.h" />
-    <QtMoc Include="..\code\include\CDlgBaseWindow.h" />
-    <ClInclude Include="..\code\include\Global.h" />
-    <QtMoc Include="..\code\include\CDlgTitleBar.h" />
+    <ClInclude Include="..\code\src\Global.h" />
+    <QtMoc Include="..\code\src\CDlgTitleBar.h" />
+    <QtMoc Include="..\code\src\CDlgSanTang.h" />
+    <QtMoc Include="..\code\src\CDlgLoginWindow.h" />
+    <QtMoc Include="..\code\src\CDlgBaseWindow.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{FE066298-B6E6-4998-9DB4-6F6D74CC6D3A}</ProjectGuid>

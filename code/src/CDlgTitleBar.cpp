@@ -10,7 +10,7 @@
 // History			:
 //******************************************************************************
 
-#include "../include/CDlgTitleBar.h"
+#include "CDlgTitleBar.h"
 #include <QHBoxLayout>
 #include <QPainter>
 #include <QFile>
@@ -34,7 +34,7 @@ CDlgTitleBar::CDlgTitleBar(QWidget *parent /* = NULL */)
     // ³õÊ¼»¯
     mvInitControl();
     mvInitConn();
-    mvLoadStyleSheet("title_style");
+    mvLoadStyleSheet("MyTitle");
 }
 
 CDlgTitleBar::~CDlgTitleBar()
@@ -354,7 +354,7 @@ void CDlgTitleBar::mvMoveEvent(QMouseEvent *event)
         moStartMovePos = event->globalPos();
         this->parentWidget()->move(widgetPos.x() + movePoint.x(), widgetPos.y() + movePoint.y());
     }
-    return QWidget::mouseMoveEvent(event);
+    return QWidget::mousePressEvent(event);
 
 }
 
@@ -373,7 +373,7 @@ void CDlgTitleBar::mvMoveEvent(QMouseEvent *event)
 void CDlgTitleBar::mvReleaseEvent(QMouseEvent *event)
 {
     mbIsPressed = false;
-    return QWidget::mouseReleaseEvent(event);
+    return QWidget::mousePressEvent(event);
 }
 
 //******************************************************************************

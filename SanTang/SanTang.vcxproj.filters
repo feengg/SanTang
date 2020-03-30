@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{121e68c0-502d-4508-a07d-483252c799ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="img">
+      <UniqueIdentifier>{1c44a204-320c-4849-8f0d-fbac52122248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{679348b7-ddd3-455f-a42c-92051db10fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{9a956bcf-7586-4d3e-bb51-3a342be40a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="qrc">
+      <UniqueIdentifier>{795a4b8d-8222-49a8-ba17-bf6676124632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{775d0e5b-9b94-4e61-b2a3-222bc59bb52b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="..\code\ui\qDlgAbout.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="..\code\ui\qDlgSanTang.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="..\code\ui\qDlgLoginWindow.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="..\code\ui\qDlgWidget.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\code\src\CDlgTitleBar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\src\CDlgLoginWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\src\CDlgSanTang.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\src\CDlgBaseWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\src\main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="..\code\qrc\SanTang.qrc">
+      <Filter>qrc</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\code\src\Global.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\code\src\CDlgBaseWindow.h">
+      <Filter>src</Filter>
+    </QtMoc>
+    <QtMoc Include="..\code\src\CDlgLoginWindow.h">
+      <Filter>src</Filter>
+    </QtMoc>
+    <QtMoc Include="..\code\src\CDlgSanTang.h">
+      <Filter>src</Filter>
+    </QtMoc>
+    <QtMoc Include="..\code\src\CDlgTitleBar.h">
+      <Filter>src</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
