@@ -1,2 +1,0 @@
-# SanTang
-SANTANG软件
