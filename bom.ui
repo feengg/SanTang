@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Bom</class>
+ <widget class="QWidget" name="Bom">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>606</width>
+    <height>254</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="closeButton" name="toolButton">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>0</y>
+     <width>15</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-4</y>
+     <width>54</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>BOM单处理</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>581</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>导入BOM单</string>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Bom单：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>30</y>
+      <width>491</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_loadBom">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>30</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_loadBom
+{
+    color:black;
+    background-color:rgb(238 , 238 , 238);
+    border: 1px solid rgb(183 , 183 , 183);
+}
+
+QPushButton#pushButton_loadBom:hover
+{
+    color:black;
+    background-color:rgb(228 , 240 , 250);
+    border: 1px solid rgb(15 , 150 , 255);
+}
+
+QPushButton#pushButton_loadBom:pressed
+{
+    color:black;
+    background-color:rgb(204 , 228 , 247);
+    border: 1px solid rgb(1 , 84 , 153);
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>浏览</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>140</y>
+     <width>581</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>处理栏</string>
+   </property>
+   <widget class="QPushButton" name="pushButton_mxb">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>20</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_mxb
+{
+    color:black;
+    background-color:rgb(238 , 238 , 238);
+    border: 1px solid rgb(183 , 183 , 183);
+}
+
+QPushButton#pushButton_mxb:hover
+{
+    color:black;
+    background-color:rgb(228 , 240 , 250);
+    border: 1px solid rgb(15 , 150 , 255);
+}
+
+QPushButton#pushButton_mxb:pressed
+{
+    color:black;
+    background-color:rgb(204 , 228 , 247);
+    border: 1px solid rgb(1 , 84 , 153);
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>导出电装明细表</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_cgqd">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>20</y>
+      <width>141</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_cgqd
+{
+    color:black;
+    background-color:rgb(238 , 238 , 238);
+    border: 1px solid rgb(183 , 183 , 183);
+}
+
+QPushButton#pushButton_cgqd:hover
+{
+    color:black;
+    background-color:rgb(228 , 240 , 250);
+    border: 1px solid rgb(15 , 150 , 255);
+}
+
+QPushButton#pushButton_cgqd:pressed
+{
+    color:black;
+    background-color:rgb(204 , 228 , 247);
+    border: 1px solid rgb(1 , 84 , 153);
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>导出采购清单</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_cgsq">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>20</y>
+      <width>151</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_cgsq
+{
+    color:black;
+    background-color:rgb(238 , 238 , 238);
+    border: 1px solid rgb(183 , 183 , 183);
+}
+
+QPushButton#pushButton_cgsq:hover
+{
+    color:black;
+    background-color:rgb(228 , 240 , 250);
+    border: 1px solid rgb(15 , 150 , 255);
+}
+
+QPushButton#pushButton_cgsq:pressed
+{
+    color:black;
+    background-color:rgb(204 , 228 , 247);
+    border: 1px solid rgb(1 , 84 , 153);
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>生成采购申请单</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_ok">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>210</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_ok
+{
+    color:white;
+    background-color:rgb(14 , 150 , 254);
+    border: 1px solid rgb(11 , 137 , 234);
+}
+
+QPushButton#pushButton_ok:hover
+{
+    color:white;
+    background-color:rgb(44 , 137 , 255);
+    border: 1px solid rgb(11 , 137 , 234);
+}
+
+QPushButton#pushButton_ok:pressed
+{
+    color:white;
+    background-color:rgb(14 , 135 , 228);
+    border: 1px solid rgb(12 , 138 , 235);
+    padding-left:3px;
+    padding-top:3px;
+}
+	</string>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>closeButton</class>
+   <extends>QToolButton</extends>
+   <header>closebutton.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

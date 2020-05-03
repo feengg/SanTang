@@ -1,0 +1,12 @@
+﻿  CDlgAddItem.cpp
+  CDlgBillMan.cpp
+  CDlgCusmerEdit.cpp
+  CSQLDatabase.cpp
+  SanTang.cpp
+  main.cpp
+f:\temp\erp\erp\loginwindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 main.cpp)
+f:\temp\erp\erp\mytitlebar.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 main.cpp)
+  moc_CDlgBillMan.cpp
+  moc_CDlgCusmerEdit.cpp
+  moc_SanTang.cpp
+  ERP.vcxproj -> F:\Temp\ERP\x64\Debug\ERP.exe

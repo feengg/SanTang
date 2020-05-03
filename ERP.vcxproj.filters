@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="mytitlebar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="basewindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="minbutton.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="maxbutton.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="closebutton.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="mytoolbtn.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="mypushbtn.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyBoard.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="loginwindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="widget.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgBillMan.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CSQLMan.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgAddItem.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgNewBill.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CCustomer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CSQLDatabase.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="COrderInfo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CProduct.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SProduct.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgCustomerEdit.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SanTang.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgOrderToolBar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgOrderMan.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgOrderManToolBar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="QGUI.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgCusmerEdit.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgAddCusmerInfo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="mytitlebar.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="basewindow.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="mypushbtn.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="KeyBoard.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="loginwindow.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="widget.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="CDlgBillMan.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="CDlgAddItem.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="CDlgNewBill.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="CDlgCustomerEdit.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="SanTang.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="CDlgOrderToolBar.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="CDlgOrderMan.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="CDlgOrderManToolBar.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="QGUI.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="CDlgCusmerEdit.h">
+      <Filter>include</Filter>
+    </QtMoc>
+    <QtMoc Include="CDlgAddCusmerInfo.h">
+      <Filter>include</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="loginwindow.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="keyboard.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="changepassword.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="widget.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="CDlgBillMan.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="CDlgAddItem.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="CDlgNewBill.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="CDlgCustomerEdit.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="SanTang.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="CDlgOrderToolBar.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="CDlgOrderMan.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="CDlgOrderManToolBar.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="QGUI.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="CDlgCusmerEdit.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+    <QtUic Include="CDlgAddCusmerInfo.ui">
+      <Filter>ui</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="ERP.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtRcc Include="toolbar.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="minbutton.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="maxbutton.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="closebutton.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="mytoolbtn.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="CSQLMan.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="CCustomer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="CSQLDatabase.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="COrderInfo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="CProduct.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="SProduct.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="SCustomer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="SOrderInfo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="SItemInfo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="SEmpolyee.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="SSupplier.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="SSupItemInfo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="SMaterial.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="SUnit.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="SProject.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="SDepartment.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="SAttendance.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ERP.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bitmap1.bmp" />
+  </ItemGroup>
+</Project>

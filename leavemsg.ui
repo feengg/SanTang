@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LeaveMsg</class>
+ <widget class="QWidget" name="LeaveMsg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>860</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>120</y>
+     <width>740</width>
+     <height>680</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_leaveMsg">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>730</y>
+     <width>141</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	border-image: url(:/images/leaveMsgPics/writeMsg.png);
+	
+	color: rgb(85, 0, 0);
+	font: 20pt &quot;隶书&quot;;
+}
+QPushButton:hover
+{
+	color: rgb(0, 0, 255);
+	border-image: url(:/images/leaveMsgPics/writeMsg-hover.png);
+	font: 20pt &quot;隶书&quot;;
+}
+QPushButton:pressed
+{
+	font: 20pt &quot;隶书&quot;;
+	color: rgb(255, 0,0);
+	
+	border-image: url(:/images/leaveMsgPics/writeMsg-pressed.png);
+}</string>
+   </property>
+   <property name="text">
+    <string> 留言</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_close">
+   <property name="geometry">
+    <rect>
+     <x>1178</x>
+     <y>0</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+background-image: url(:/images/EmailImage/quit.png);
+background-color: rgba(255, 255, 255,0);
+background-repeat:no-repeat;
+border:none;
+background-position:center center;
+
+}
+QPushButton:hover{
+
+background-color: rgba(230,0,0,0.5);
+}
+QPushButton:pressed{
+background-color: rgba(95, 95, 95,100);
+border-color:rgba(255,255,255,30);
+border-style:inset;
+color:rgba(0,0,0,100);
+
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_flush">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>120</y>
+     <width>141</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	border-image: url(:/images/leaveMsgPics/writeMsg.png);
+	
+	color: rgb(85, 0, 0);
+	font: 20pt &quot;隶书&quot;;
+}
+QPushButton:hover
+{
+	color: rgb(0, 0, 255);
+	border-image: url(:/images/leaveMsgPics/writeMsg-hover.png);
+	font: 20pt &quot;隶书&quot;;
+}
+QPushButton:pressed
+{
+	font: 20pt &quot;隶书&quot;;
+	color: rgb(255, 0,0);
+	
+	border-image: url(:/images/leaveMsgPics/writeMsg-pressed.png);
+}</string>
+   </property>
+   <property name="text">
+    <string> 刷新</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

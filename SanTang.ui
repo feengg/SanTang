@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CDlgMainWindow</class>
+ <widget class="QMainWindow" name="CDlgMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1176</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ERP</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QStackedWidget" name="mopTableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>1111</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QStackWidget{
+rgb(255, 255, 127)
+}</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="mopFormToolBar">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QMenuBar" name="moMenuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1176</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="moMenuBaseInfoMan">
+    <property name="title">
+     <string>基础资料</string>
+    </property>
+    <addaction name="moActInfoMange"/>
+    <addaction name="moActSetMaterial"/>
+    <addaction name="moActSetUnit"/>
+    <addaction name="moActSetProject"/>
+    <addaction name="moActSetEmpolyee"/>
+   </widget>
+   <widget class="QMenu" name="moMenuBusinessMan">
+    <property name="title">
+     <string>业务管理</string>
+    </property>
+    <addaction name="mopActCustomerOrderMan"/>
+    <addaction name="mopActNewCustomerOrder"/>
+    <addaction name="mopActWithdrawCustomerOrder"/>
+    <addaction name="mopActSupplierOrderMan"/>
+    <addaction name="mopActNewSupplierOrder"/>
+    <addaction name="mopActWithdrawSupplierOrder"/>
+   </widget>
+   <widget class="QMenu" name="moMenuCustomerMan">
+    <property name="title">
+     <string>客户管理</string>
+    </property>
+    <addaction name="moActCustomerMan"/>
+    <addaction name="moActSupplierMan"/>
+   </widget>
+   <widget class="QMenu" name="moMenuFinancialMan">
+    <property name="title">
+     <string>财务管理</string>
+    </property>
+    <addaction name="moActCustomerRecon"/>
+    <addaction name="moActSupplierRecon"/>
+   </widget>
+   <widget class="QMenu" name="moStatisticalAnalysis">
+    <property name="title">
+     <string>统计分析</string>
+    </property>
+    <addaction name="moActProductAnalysis"/>
+    <addaction name="moActCustomerAnalysis"/>
+    <addaction name="moActFinancialAnalysis"/>
+    <addaction name="moActMonthAnalysis"/>
+   </widget>
+   <widget class="QMenu" name="moMenuSysinfoMan">
+    <property name="title">
+     <string>系统管理</string>
+    </property>
+    <addaction name="moActSetCompanyInfo"/>
+    <addaction name="moActSetPrintFormat"/>
+    <addaction name="moActResetPassword"/>
+   </widget>
+   <widget class="QMenu" name="moMenuAssisant">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="moActAbout"/>
+    <addaction name="moActPurchase"/>
+   </widget>
+   <addaction name="moMenuBaseInfoMan"/>
+   <addaction name="moMenuBusinessMan"/>
+   <addaction name="moMenuCustomerMan"/>
+   <addaction name="moMenuFinancialMan"/>
+   <addaction name="moStatisticalAnalysis"/>
+   <addaction name="moMenuSysinfoMan"/>
+   <addaction name="moMenuAssisant"/>
+  </widget>
+  <action name="moActInfoMange">
+   <property name="text">
+    <string>信息管理</string>
+   </property>
+  </action>
+  <action name="mopActCustomerOrderMan">
+   <property name="text">
+    <string>订单管理</string>
+   </property>
+  </action>
+  <action name="mopActNewCustomerOrder">
+   <property name="text">
+    <string>业务新单</string>
+   </property>
+  </action>
+  <action name="mopActWithdrawCustomerOrder">
+   <property name="text">
+    <string>业务退单</string>
+   </property>
+  </action>
+  <action name="mopActSupplierOrderMan">
+   <property name="text">
+    <string>外协加工</string>
+   </property>
+  </action>
+  <action name="moActSetMaterial">
+   <property name="text">
+    <string>耗材设置</string>
+   </property>
+  </action>
+  <action name="moActSetUnit">
+   <property name="text">
+    <string>计量单位</string>
+   </property>
+  </action>
+  <action name="moActSetProject">
+   <property name="text">
+    <string>项目设置</string>
+   </property>
+  </action>
+  <action name="moActSetEmpolyee">
+   <property name="text">
+    <string>员工设置</string>
+   </property>
+  </action>
+  <action name="moActCustomerMan">
+   <property name="text">
+    <string>客户管理</string>
+   </property>
+  </action>
+  <action name="moActSupplierMan">
+   <property name="text">
+    <string>供应商管理</string>
+   </property>
+  </action>
+  <action name="moActCustomerRecon">
+   <property name="text">
+    <string>客户对账-应收</string>
+   </property>
+  </action>
+  <action name="moActSupplierRecon">
+   <property name="text">
+    <string>外协对账-应付</string>
+   </property>
+  </action>
+  <action name="moActProductAnalysis">
+   <property name="text">
+    <string>产品业务量统计</string>
+   </property>
+  </action>
+  <action name="moActCustomerAnalysis">
+   <property name="text">
+    <string>客户业务量统计</string>
+   </property>
+  </action>
+  <action name="moActFinancialAnalysis">
+   <property name="text">
+    <string>账务收支统计表</string>
+   </property>
+  </action>
+  <action name="moActMonthAnalysis">
+   <property name="text">
+    <string>月度统计报表</string>
+   </property>
+  </action>
+  <action name="moActSetCompanyInfo">
+   <property name="text">
+    <string>公司信息设置</string>
+   </property>
+  </action>
+  <action name="moActSetPrintFormat">
+   <property name="text">
+    <string>打印格式设计</string>
+   </property>
+  </action>
+  <action name="moActResetPassword">
+   <property name="text">
+    <string>修改密码</string>
+   </property>
+  </action>
+  <action name="moActAbout">
+   <property name="text">
+    <string>关于</string>
+   </property>
+  </action>
+  <action name="moActPurchase">
+   <property name="text">
+    <string>联系购买</string>
+   </property>
+  </action>
+  <action name="mopActNewSupplierOrder">
+   <property name="text">
+    <string>外协新单</string>
+   </property>
+  </action>
+  <action name="mopActWithdrawSupplierOrder">
+   <property name="text">
+    <string>外协退单</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="ERP.qrc"/>
+ </resources>
+ <connections/>
+</ui>
